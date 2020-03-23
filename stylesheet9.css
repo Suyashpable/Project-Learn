@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(34, 49, 52, 0.9);
+    width: 100%;
+    height: 65px;
+}
+
+.logo{
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+}
+
+.header-right a {
+    color: white;
+    margin-right: 20px;
+    line-height: 65px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    padding: 25px 25px;
+    display: none;
+}
+
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    padding: 180px 0 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    font-size: 45px;
+    opacity: 0.8;
+    letter-spacing: 7px;
+}
+
+.top-wrapper p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.btn-wrapper{
+    margin-top: 30px
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 15px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn {
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+.lesson-wrapper {
+    background-color: #f7f7f7;
+    padding-top: 60px;
+    text-align: center;
+    height: 650px;
+}
+
+.heading h2 {
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    color: white;
+}
+
+.text-content {
+    width: 80%;
+    display: inline-block;
+    color: #b3aeb5;
+    font-size: 15px
+}
+
+.message-wrapper {
+    text-align: center;
+    margin-top: 35px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+
+.heading h3 {
+    font-weight: normal
+}
+
+.message{
+    background-color: #5dca88;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px #1a7940;
+}
+
+footer img {
+    width: 124px;
+    padding-top: 20px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 14px;
+}
